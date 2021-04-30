@@ -1,0 +1,326 @@
+-------------------------------------------------------------------------------
+Test set: parallel.ParallelRun
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.391 s <<< FAILURE! - in parallel.ParallelRun
+runScenario(parallel.ParallelRun)  Time elapsed: 20.773 s  <<< FAILURE!
+java.lang.AssertionError: 
+Found 6 accessibility violations:
+1) ARIA role must be appropriate for the element: https://dequeuniversity.com/rules/axe/3.1/aria-allowed-role?application=axeAPI
+  a) ["img[width=\"\\31 00\"]"]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+2) Text of buttons and links should not be repeated in the image alternative: https://dequeuniversity.com/rules/axe/3.1/image-redundant-alt?application=axeAPI
+  a) ["a[aria-label=\"ACs\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  b) ["a[aria-label=\"Refrigerators\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  c) ["a[aria-label=\"Televisions\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  d) ["a[aria-label=\"Washing\\ machines\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  e) ["a[aria-label=\"Cleaning\\ essentials\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  f) ["a[aria-label=\"Immunity\\ \\&\\ healthcare\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  g) ["a[aria-label=\"Women\\'s\\ personal\\ care\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  h) ["a[aria-label=\"Men\\'s\\ grooming\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  i) ["a[aria-label=\"Home\\ products\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  j) ["a[aria-label=\"Kitchen\\ \\&\\ dining\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  k) ["a[aria-label=\"Daily\\ essentials\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  l) ["a[aria-label=\"Clothing\\ essentials\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  m) ["a[aria-label=\"Measuring\\ instruments\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  n) ["a[aria-label=\"Medical\\ supplies\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  o) ["a[aria-label=\"Women\\'s\\ Clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  p) ["a[aria-label=\"Footwear\\+Handbags\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  q) ["#\\35 _oykn5nJjdVWXRCersM7g > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-0.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Watches\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  r) ["a[aria-label=\"Fashion\\ jewellery\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  s) ["a[aria-label=\"Clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  t) ["a[href=\"/b?node=1983518031\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  u) ["a[href=\"/b?node=2563504031\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  v) ["a[aria-label=\"BAGS\\ \\&\\ LUGGAGE\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  w) ["a[aria-label=\"N95\\ Masks\\ \\&\\ respirators\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  x) ["a[aria-label=\"Cloth\\ masks\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  y) ["a[aria-label=\"Face\\ coverings\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  z) ["a[aria-label=\"View\\ the\\ mask\\ store\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  aa) ["a[aria-label=\"Fruits\\ \\&\\ vegetables\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ab) ["#OOoTkZY2iD9RKPGqlHOi3Q > .a-cardui-body > .a-spacing-small.grid-row-1.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ac) ["#OOoTkZY2iD9RKPGqlHOi3Q > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-0.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ad) ["#OOoTkZY2iD9RKPGqlHOi3Q > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ae) ["a[aria-label=\"Juices\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  af) ["a[aria-label=\"Cold\\ drinks\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ag) ["a[aria-label=\"Tea\\ \\&\\ coffee\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ah) ["#duSoDAeXGfqmUYN4aDDq3g > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ai) ["a[aria-label=\"Headphones\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  aj) ["a[aria-label=\"Laptops\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ak) ["a[aria-label=\"Monitors\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  al) ["a[aria-label=\"Routers\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  am) ["a[href=\"/l/22649649031\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  an) ["a[aria-label=\"Top\\ chart\\ games\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ao) ["a[aria-label=\"Play\\ like\\ a\\ pro\\ \\|\\ Accessories\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ap) ["a[aria-label=\"Virtual\\ reality\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  aq) ["a[aria-label=\"Nano-ionic\\ facial\\ steamers\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ar) ["a[aria-label=\"Digital\\ weighing\\ scales\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  as) ["a[aria-label=\"Mini\\ \\&\\ handheld\\ massagers\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  at) ["a[aria-label=\"Electric\\ toothbrushes\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  au) ["a[aria-label=\"Men\\'s\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  av) ["a[aria-label=\"Women\u2019s\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  aw) ["a[aria-label=\"Kids\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ax) [".grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ay) ["a[aria-label=\"All-new\\ Echo\\ Dot\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  az) ["a[aria-label=\"All-new\\ Fire\\ TV\\ Stick\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  ba) ["a[aria-label=\"Echo\\ Show\\ 5\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bb) ["a[aria-label=\"Kindle\\ E-readers\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bc) ["a[aria-label=\"Cookware\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bd) ["a[aria-label=\"Tableware\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+3) Form elements should have a visible label: https://dequeuniversity.com/rules/axe/3.1/label-title-only?application=axeAPI
+  a) ["#searchDropdownBox"]
+    Fix all of the following:
+      Only title used to generate label for form element
+
+
+4) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) ["a[href$=\"ref=footer_logo\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+5) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
+  a) ["html"]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+6) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) ["html"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+ expected [true] but found [false]
+

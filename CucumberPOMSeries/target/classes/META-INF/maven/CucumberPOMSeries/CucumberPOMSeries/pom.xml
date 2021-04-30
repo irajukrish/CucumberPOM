@@ -97,6 +97,14 @@
 			<version>5.0.7</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.deque/axe-selenium -->
+		<dependency>
+			<groupId>com.deque</groupId>
+			<artifactId>axe-selenium</artifactId>
+			<version>3.0</version>
+		</dependency>
+		
+
 	</dependencies>
 
 	<build>

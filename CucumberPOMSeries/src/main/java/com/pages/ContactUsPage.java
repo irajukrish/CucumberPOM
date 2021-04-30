@@ -8,6 +8,7 @@ public class ContactUsPage {
 	
 	private WebDriver driver;
 
+	private By ContactUslink=By.linkText("Contact us");
 	private By subjectHeading = By.id("id_contact");
 	private By email = By.id("email");
 	private By orderRef = By.id("id_order");
@@ -19,9 +20,16 @@ public class ContactUsPage {
 		this.driver = driver;
 	}
 
+	
+	public void navigatetoContactUs() {
+		driver.findElement(ContactUslink).click();
+	}
+	
 	public String getContactUsPageTitle() {
 		return driver.getTitle();
 	}
+	
+	
 	
 	public void fillContactUsForm(String heading, String emailId, String orderReference, String message) {
 		Select select = new Select(driver.findElement(subjectHeading));
