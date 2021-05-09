@@ -5,6 +5,7 @@ import java.util.Properties;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
 
 import com.qa.factory.DriverFactory;
 import com.qa.util.ConfigReader;
@@ -20,6 +21,7 @@ public class ApplicationHooks {
 	private WebDriver driver;
 	private ConfigReader configReader;
 	Properties prop;
+	String b;
 	
 	@Before(order = 0)
 	public void getProperty() {
@@ -29,10 +31,15 @@ public class ApplicationHooks {
 	
 	@Before(order = 1)
 	public void launchBrowser() {
-		String browserName = prop.getProperty("browser");
+		//String browserName = prop.getProperty("browser");
+		String browserName=Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
 		driverFactory=new DriverFactory();
 		driver = driverFactory.init_driver(browserName);
 	}
+	
+	
+	
+	
 	
 	@After(order=0)
 	public void quitBrowser() {

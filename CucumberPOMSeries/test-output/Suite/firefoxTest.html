@@ -1,0 +1,187 @@
+<html>
+<head>
+<title>TestNG:  firefoxTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>firefoxTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/9/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 06 20:00:52 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1221 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Forgot Password link", "Optional[Login page feature]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:11)
+</pre></div><a href='#' onClick='toggleBox("stack-trace182920616", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace182920616'><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:11)
+</pre></div></td>
+<td>0</td>
+<td>parallel.ParallelRun@1ea9f6af</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with all credentials", "Optional[Login page feature]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:32)
+</pre></div><a href='#' onClick='toggleBox("stack-trace460094610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace460094610'><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:32)
+</pre></div></td>
+<td>0</td>
+<td>parallel.ParallelRun@1ea9f6af</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with all credentials", "Optional[Login page feature]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:32)
+</pre></div><a href='#' onClick='toggleBox("stack-trace753690988", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace753690988'><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:32)
+</pre></div></td>
+<td>0</td>
+<td>parallel.ParallelRun@1ea9f6af</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with all credentials", "Optional[Login page feature]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:42)
+</pre></div><a href='#' onClick='toggleBox("stack-trace571306557", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace571306557'><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:42)
+</pre></div></td>
+<td>0</td>
+<td>parallel.ParallelRun@1ea9f6af</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Amazon page title", "Optional[Amazon page feature]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at parallel.AmazonPageSteps.user_is_on_home_page(AmazonPageSteps.java:26)
+	at ?.user is on home page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/AmazonPage.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace461881766", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace461881766'><pre>java.lang.NullPointerException
+	at parallel.AmazonPageSteps.user_is_on_home_page(AmazonPageSteps.java:26)
+	at ?.user is on home page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/AmazonPage.feature:4)
+</pre></div></td>
+<td>0</td>
+<td>parallel.ParallelRun@1ea9f6af</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with all credentials", "Optional[Login page feature]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace164840312", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace164840312'><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:25)
+</pre></div></td>
+<td>0</td>
+<td>parallel.ParallelRun@1ea9f6af</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Contact us page title", "Optional[Contact Us feature]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at parallel.ContactUsSteps.user_is_on_contact_us_page(ContactUsSteps.java:22)
+	at ?.User is on Contact us page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/ContactUs.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1303629695", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1303629695'><pre>java.lang.NullPointerException
+	at parallel.ContactUsSteps.user_is_on_contact_us_page(ContactUsSteps.java:22)
+	at ?.User is on Contact us page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/ContactUs.feature:5)
+</pre></div></td>
+<td>0</td>
+<td>parallel.ParallelRun@1ea9f6af</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with correct credentials", "Optional[Login page feature]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:16)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1479046402", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1479046402'><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:16)
+</pre></div></td>
+<td>0</td>
+<td>parallel.ParallelRun@1ea9f6af</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login page title", "Optional[Login page feature]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace601445062", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace601445062'><pre>java.lang.NullPointerException
+	at parallel.LoginPageSteps.user_is_on_login_page(LoginPageSteps.java:31)
+	at ?.user is on login page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:5)
+</pre></div></td>
+<td>0</td>
+<td>parallel.ParallelRun@1ea9f6af</td></tr>
+</table><p>
+</body>
+</html>

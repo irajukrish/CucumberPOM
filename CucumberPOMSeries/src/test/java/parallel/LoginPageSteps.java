@@ -13,6 +13,7 @@ import com.qa.factory.DriverFactory;
 import com.qa.util.ExcelReader;
 import com.qa.util.XLUtility;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -44,6 +45,26 @@ public class LoginPageSteps {
 			loginPage.doLogin(username, password);
 		}
 
+	}
+	
+	@When("User enter Username as {string} and Password as {string}")
+	public void user_enter_username_as_and_password_as(String username, String password) {
+		loginPage.enterUserName(username);
+		loginPage.enterPassword(password);
+		loginPage.clickOnLogin();
+		System.out.println("Examples Output");
+	}
+	
+	@When("<{int}> Users enters Credentials to LogIn")
+	public void users_enters_credentials_to_log_in(Integer Users, DataTable usercredentials) {
+		List<List<String>> data = usercredentials.asLists(String.class);
+		for (int i = 0; i < Users; i++) {
+		loginPage.enterUserName(data.get(i).get(0));
+		loginPage.enterPassword(data.get(i).get(1));
+		loginPage.clickOnLogin();
+		loginPage.clickSignOut();
+		}
+		System.out.println("Data Table Output");
 	}
 
 	@When("user gets the title of the page")
