@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">May 7, 2021 04:02:33 pm</span></a>
+<a href="#"><span class="badge badge-primary">May 13, 2021 11:24:58 am</span></a>
 </li>
 </ul>
 </div>
@@ -71,19 +71,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>May 7, 2021 04:02:33 pm</h3>
+<h3>May 13, 2021 11:24:58 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>May 7, 2021 04:03:21 pm</h3>
+<h3>May 13, 2021 11:25:59 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>2</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -105,12 +105,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='66%'>
-<b>2</b> features passed
+<div><small data-tooltip='75%'>
+<b>3</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='33%'><b>1</b> features failed,
+<small data-tooltip='25%'><b>1</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -128,9 +128,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='75%'><b>3</b> scenarios passed</small></div>
+<div><small data-tooltip='90%'><b>9</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='25%'><b>1</b> scenarios failed,
+<small data-tooltip='10%'><b>1</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -148,9 +148,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='88%'><b>8</b> steps passed</small></div>
+<div><small data-tooltip='96%'><b>30</b> steps passed</small></div>
 <div>
-<small data-tooltip='11%'><b>1</b> steps failed,
+<small data-tooltip='3%'><b>1</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -167,7 +167,7 @@
 </div></div>
 <script>
 var timeline = {
-"Amazon page feature":47.259,"Contact Us feature":39.313,"Login page feature":39.307
+"Contact Us feature":48.587,"Login page feature":60.786,"Amazon page feature":50.877,"MenuList feature on Selenium Easy webapplication":42.455
 };
 </script>
 <div class="row">
@@ -177,6 +177,14 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
+<td>@ScenarioOutline</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
 <td>@ContactUs</td>
 <td>1</td>
 <td>0</td>
@@ -185,8 +193,48 @@ var timeline = {
 <td>100%</td>
 </tr>
 <tr>
-<td>@ScenarioOutline</td>
-<td>3</td>
+<td>@InputForms</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@smoketest</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@excel</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@DataTable</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@MenuList</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@smoketest1</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -227,18 +275,18 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 2,
+passParent: 3,
 failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 3,
+passChild: 9,
 failChild: 1,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 8,
+passGrandChild: 30,
 failGrandChild: 1,
 warningGrandChild: 0,
 skipGrandChild: 0,
@@ -264,31 +312,31 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@ContactUs</a><a class="dropdown-item" href="#">@ScenarioOutline</a>
+<a class="dropdown-item" href="#">@ScenarioOutline</a><a class="dropdown-item" href="#">@ContactUs</a><a class="dropdown-item" href="#">@InputForms</a><a class="dropdown-item" href="#">@smoketest</a><a class="dropdown-item" href="#">@excel</a><a class="dropdown-item" href="#">@DataTable</a><a class="dropdown-item" href="#">@MenuList</a><a class="dropdown-item" href="#">@smoketest1</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Amazon page feature</p>
+            <p class="name">Contact Us feature</p>
             <p class="text-sm">
-              <span>16:02:34 pm</span> / <span>00:00:47:259</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>11:24:59 am</span> / <span>00:00:48:587</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Amazon page feature</h5>
-<span class='badge badge-success'>05.07.2021 16:02:34</span>
-<span class='badge badge-danger'>05.07.2021 16:03:21</span>
-<span class='badge badge-default'>00:00:47:259</span>
+<h5 class="test-status text-pass">Contact Us feature</h5>
+<span class='badge badge-success'>05.13.2021 11:24:59</span>
+<span class='badge badge-danger'>05.13.2021 11:25:47</span>
+<span class='badge badge-default'>00:00:48:587</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -298,7 +346,278 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Amazon page title</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Contact us page title</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="parallel.ContactUsSteps.user_is_on_contact_us_page()">
+                <span>Given User is on Contact us page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.ContactUsSteps.send_a_message()">
+                <span>When Send a message</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.ContactUsSteps.confirmation_message()">
+                <span>Then Confirmation message</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login page feature</p>
+            <p class="text-sm">
+              <span>11:24:59 am</span> / <span>00:01:00:786</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login page feature</h5>
+<span class='badge badge-success'>05.13.2021 11:24:59</span>
+<span class='badge badge-danger'>05.13.2021 11:25:59</span>
+<span class='badge badge-default'>00:01:00:786</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>Forgot Password link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="parallel.LoginPageSteps.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.forgot_your_password_link_should_be_displayed()">
+                <span>Then forgot your password link should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Login with all credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="parallel.LoginPageSteps.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.users_enters_credentials_to_log_in(java.lang.Integer,io.cucumber.datatable.DataTable)">
+                <span>When <2> Users enters Credentials to LogIn</span>
+      <div><table class='markup-table table '><tr><td>nirifi5570@684hh.com</td><td>Selenium</td></tr><tr><td>xikafo9060@goqoez.com</td><td>Selenium</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>Login with correct credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="parallel.LoginPageSteps.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.user_enters_username(java.lang.String)">
+                <span>When user enters username "nirifi5570@684hh.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.user_enters_password(java.lang.String)">
+                <span>And user enters password "Selenium"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.user_gets_the_title_of_the_page()">
+                <span>Then user gets the title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.page_title_should_be(java.lang.String)">
+                <span>And page title should be "My account - My Store"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>Login with all credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>Login with all credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enter Username as "xikafo9060@goqoez.com" and Password as "Selenium"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>Login with all credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enter Username as "nirifi5570@684hh.com" and Password as "Selenium"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Login with all credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="parallel.LoginPageSteps.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.users_logs_in(java.lang.Integer)">
+                <span>When <2> users logs in</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.user_gets_the_title_of_the_page()">
+                <span>Then user gets the title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.page_title_should_be(java.lang.String)">
+                <span>And page title should be "Login - My Store"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>Login page title</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="parallel.LoginPageSteps.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.user_gets_the_title_of_the_page()">
+                <span>When user gets the title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.LoginPageSteps.page_title_should_be(java.lang.String)">
+                <span>Then page title should be "Login - My Store"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Amazon page feature</p>
+            <p class="text-sm">
+              <span>11:24:59 am</span> / <span>00:00:50:877</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Amazon page feature</h5>
+<span class='badge badge-success'>05.13.2021 11:24:59</span>
+<span class='badge badge-danger'>05.13.2021 11:25:50</span>
+<span class='badge badge-default'>00:00:50:877</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="6"><span class="badge log fail-bg mr-2">Fail</span>Amazon page title</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -311,287 +630,302 @@ eventsCount: 5,
       <div>
         <textarea disabled class="code-block">java.lang.AssertionError: Found 5 accessibility violations:
 1) Text of buttons and links should not be repeated in the image alternative: https://dequeuniversity.com/rules/axe/3.1/image-redundant-alt?application=axeAPI
-  a) ["a[aria-label=\"Measuring\\ instruments\"]"]
+  a) ["a[aria-label=\"Clothing\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  b) ["a[aria-label=\"Medical\\ supplies\"]"]
+  b) ["a[href=\"/b?node=1983518031\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  c) ["a[aria-label=\"Flight\\ tickets\"]"]
+  c) ["a[href=\"/b?node=2563504031\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  d) ["a[aria-label=\"Bus\\ tickets\"]"]
+  d) ["a[aria-label=\"BAGS\\ \\&\\ LUGGAGE\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  e) ["a[aria-label=\"Train\\ tickets\"]"]
+  e) ["a[aria-label=\"Cereals\\ \\&\\ Oats\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  f) ["a[aria-label=\"Essential\\ travel\\ products\"]"]
+  f) ["a[aria-label=\"Tea\\ \\&\\ Coffee\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  g) ["a[aria-label=\"Cereals\\ \\&\\ Oats\"]"]
+  g) ["a[aria-label=\"Spreads\\ \\&\\ Honey\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  h) ["a[aria-label=\"Tea\\ \\&\\ Coffee\"]"]
+  h) ["a[aria-label=\"Cleaning\\ essentials\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  i) ["a[aria-label=\"Spreads\\ \\&\\ Honey\"]"]
+  i) ["a[aria-label=\"Immunity\\ \\&\\ healthcare\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  j) ["a[aria-label=\"Clothing\"]"]
+  j) ["a[aria-label=\"Women\\'s\\ personal\\ care\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  k) ["a[href=\"/b?node=1983518031\"]"]
+  k) ["a[aria-label=\"Men\\'s\\ grooming\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  l) ["a[href=\"/b?node=2563504031\"]"]
+  l) ["a[aria-label=\"Women\\'s\\ Clothing\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  m) ["a[aria-label=\"BAGS\\ \\&\\ LUGGAGE\"]"]
+  m) ["a[aria-label=\"Footwear\\+Handbags\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  n) ["a[aria-label=\"Cookware\"]"]
+  n) ["#Z1TOtzOeCSJD44F3e60UlA > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-0.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Watches\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  o) ["a[aria-label=\"Tableware\"]"]
+  o) ["a[aria-label=\"Fashion\\ jewellery\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  p) ["a[aria-label=\"N95\\ Masks\\ \\&\\ respirators\"]"]
+  p) ["a[aria-label=\"Flight\\ tickets\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  q) ["a[aria-label=\"Cloth\\ masks\"]"]
+  q) ["a[aria-label=\"Bus\\ tickets\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  r) ["a[aria-label=\"Kids\\ mask\"]"]
+  r) ["a[aria-label=\"Train\\ tickets\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  s) ["a[aria-label=\"View\\ the\\ mask\\ store\"]"]
+  s) ["a[aria-label=\"Essential\\ travel\\ products\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  t) ["a[aria-label=\"Skin\\ care\"]"]
+  t) ["a[aria-label=\"N95\\ Masks\\ \\&\\ respirators\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  u) ["a[aria-label=\"Hair\\ care\"]"]
+  u) ["a[aria-label=\"Cloth\\ masks\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  v) ["a[aria-label=\"Makeup\"]"]
+  v) ["a[aria-label=\"Kids\\ mask\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  w) ["a[aria-label=\"Luxury\\ beauty\"]"]
+  w) ["a[aria-label=\"View\\ the\\ mask\\ store\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  x) ["a[href=\"/b?node=11599648031\"]"]
+  x) ["a[aria-label=\"Dog\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  y) ["a[aria-label=\"Tablets\"]"]
+  y) ["a[aria-label=\"Cat\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  z) ["a[aria-label=\"Laptops\"]"]
+  z) ["a[aria-label=\"Aquatics\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aa) ["a[aria-label=\"Monitors\"]"]
+  aa) ["a[aria-label=\"Bird\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ab) ["a[aria-label=\"All-new\\ Echo\\ Dot\"]"]
+  ab) ["a[aria-label=\"Chips\\ \\&\\ namkeens\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ac) ["a[aria-label=\"All-new\\ Fire\\ TV\\ Stick\"]"]
+  ac) ["a[aria-label=\"Biscuits\\ \\&\\ cookies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ad) ["a[aria-label=\"Echo\\ Show\\ 5\"]"]
+  ad) ["a[aria-label=\"Frozen\\ snacks\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ae) ["a[aria-label=\"Kindle\\ E-readers\"]"]
+  ae) ["#U7H7lWNcujxahj44f2hHHw > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  af) ["a[aria-label=\"Printers\"]"]
+  af) ["a[aria-label=\"Fresh\\ fruits\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ag) ["a[aria-label=\"Routers\\ \\&\\ hotspots\"]"]
+  ag) ["a[aria-label=\"Dairy\\,\\ bread\\ \\&\\ eggs\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ah) ["a[aria-label=\"Computer\\ accessories\"]"]
+  ah) ["a[aria-label=\"Breakfast\\ cereals\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ai) ["a[aria-label=\"Stationery\\ \\&\\ office\\ supplies\"]"]
+  ai) ["#\\35 zVk8pxfnAlYsGWOPku5jQ > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aj) ["a[aria-label=\"Men\\'s\\ clothing\"]"]
+  aj) ["a[aria-label=\"Skin\\ care\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ak) ["a[aria-label=\"Women\u2019s\\ clothing\"]"]
+  ak) ["a[aria-label=\"Hair\\ care\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  al) ["a[aria-label=\"Kids\\ clothing\"]"]
+  al) ["a[aria-label=\"Makeup\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  am) [".grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
+  am) ["a[aria-label=\"Luxury\\ beauty\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  an) ["a[aria-label=\"Men\u2019s\\ Innerwear\"]"]
+  an) ["a[aria-label=\"Cookware\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ao) ["a[aria-label=\"Women\\'s\\ sarees\"]"]
+  ao) ["a[aria-label=\"Tableware\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ap) ["a[aria-label=\"Men\\'s\\ footwear\"]"]
+  ap) ["a[aria-label=\"Body\\ lotions\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aq) [".quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Watches\"]"]
+  aq) ["a[aria-label=\"Face\\ creams\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ar) ["a[aria-label=\"Gift\\ for\\ men\"]"]
+  ar) ["a[aria-label=\"Health\\ aids\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  as) ["a[aria-label=\"Gift\\ for\\ women\"]"]
+  as) ["#\\36 98NUdRHRvZGMh8EzsLNyg > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  at) ["a[aria-label=\"Gift\\ for\\ boys\"]"]
+  at) ["a[aria-label=\"Men\u2019s\\ Innerwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  au) ["a[aria-label=\"Gift\\ for\\ girls\"]"]
+  au) ["a[aria-label=\"Women\\'s\\ sarees\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  av) ["a[aria-label=\"Gifts\\ by\\ interest\"]"]
+  av) ["a[aria-label=\"Men\\'s\\ footwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aw) ["a[aria-label=\"Most-gifted\"]"]
+  aw) [".quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Watches\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ax) ["a[aria-label=\"Gift\\ Cards\"]"]
+  ax) ["a[aria-label=\"CLOTHING\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ay) ["a[aria-label=\"Decorations\"]"]
+  ay) ["#\\39 J2RKqdU4MwQuQ7w7IFHWA > .a-cardui-body > .a-spacing-small.grid-row-1.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  az) ["a[aria-label=\"CLOTHING\"]"]
+  az) ["a[aria-label=\"Precious\\ jewellery\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ba) ["#ql7SpWUqj3IIrT4H4JXUKA > .a-cardui-body > .a-spacing-small.grid-row-1.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
+  ba) ["a[aria-label=\"Juices\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  bb) ["a[aria-label=\"Precious\\ jewellery\"]"]
+  bb) ["a[aria-label=\"Cold\\ drinks\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  bc) ["a[aria-label=\"Smart\\ bulb\"]"]
+  bc) ["a[aria-label=\"Tea\\ \\&\\ coffee\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  bd) ["a[aria-label=\"Echo\\ devices\"]"]
+  bd) ["#-UJiXWLNCx4Ljq9F2adibg > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  be) ["a[aria-label=\"Smart\\ Plug\"]"]
+  be) ["a[aria-label=\"Men\\'s\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bf) ["a[aria-label=\"Women\u2019s\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bg) ["a[aria-label=\"Kids\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bh) [".grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
@@ -653,14 +987,14 @@ eventsCount: 5,
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="3"
+        <li class="test-item"  status="pass" test-id="8"
           author=""
-          tag=""
+          tag="@MenuList"
           device="">
           <div class="test-detail">
-            <p class="name">Contact Us feature</p>
+            <p class="name">MenuList feature on Selenium Easy webapplication</p>
             <p class="text-sm">
-              <span>16:02:34 pm</span> / <span>00:00:39:313</span>
+              <span>11:24:59 am</span> / <span>00:00:42:455</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -668,12 +1002,13 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Contact Us feature</h5>
-<span class='badge badge-success'>05.07.2021 16:02:34</span>
-<span class='badge badge-danger'>05.07.2021 16:03:13</span>
-<span class='badge badge-default'>00:00:39:313</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<h5 class="test-status text-pass">MenuList feature on Selenium Easy webapplication</h5>
+<span class='badge badge-success'>05.13.2021 11:24:59</span>
+<span class='badge badge-danger'>05.13.2021 11:25:41</span>
+<span class='badge badge-default'>00:00:42:455</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">@MenuList</span></div>
 <div class="m-t-10 m-l-5"></div>
 </div>
 </div>
@@ -681,102 +1016,37 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>Contact us page title</div>
+        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>Input Forms scenario</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="parallel.ContactUsSteps.user_is_on_contact_us_page()">
-                <span>Given User is on Contact us page</span>
+              <div class="step pass-bg" title="parallel.SeleniumEasy.MenuListSteps.user_is_on_selenium_easy()">
+                <span>Given user is on Selenium Easy</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.ContactUsSteps.send_a_message()">
-                <span>When Send a message</span>
+              <div class="step pass-bg" title="parallel.SeleniumEasy.MenuListSteps.user_navigates_to_simple_form()">
+                <span>And user navigates to Simple form</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.ContactUsSteps.confirmation_message()">
-                <span>Then Confirmation message</span>
+              <div class="step pass-bg" title="parallel.SeleniumEasy.MenuListSteps.user_inputs_message(java.lang.String)">
+                <span>When user inputs Message "Raju Krish is a great guy"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.SeleniumEasy.MenuListSteps.user_clicks_on_the_show_message()">
+                <span>And user clicks on the Show Message</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.SeleniumEasy.MenuListSteps.validate_the_user_message()">
+                <span>Then validate the user Message</span>
       <div>
       </div>
               </div>
           </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="5"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Login page feature</p>
-            <p class="text-sm">
-              <span>16:02:34 pm</span> / <span>00:00:39:307</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Login page feature</h5>
-<span class='badge badge-success'>05.07.2021 16:02:34</span>
-<span class='badge badge-danger'>05.07.2021 16:03:13</span>
-<span class='badge badge-default'>00:00:39:307</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>Login with all credentials</div>
-      </div>
-    </div>
-        <div class="scenario_outline collapse">
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Login with all credentials</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given user is on login page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When User enter Username as "nirifi5570@684hh.com" and Password as "Selenium"</span>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>Login with all credentials</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given user is on login page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When User enter Username as "xikafo9060@goqoez.com" and Password as "Selenium"</span>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
         </div>
   </div>
 </div>
@@ -795,46 +1065,10 @@ eventsCount: 5,
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">8</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
-<p class="name">@ContactUs</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@ContactUs</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:02:34 pm</td>
-<td>
-<a href="#" class="linked" test-id='3' id='4'>Contact us page title</a>
-<div class="">
-<span class="badge badge-default">Contact Us feature.Contact us page title</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
@@ -859,9 +1093,9 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:02:34 pm</td>
+<td>11:24:59 am</td>
 <td>
-<a href="#" class="linked" test-id='5' id='6'>Login with all credentials</a>
+<a href="#" class="linked" test-id='3' id='11'>Login with all credentials</a>
 <div class="">
 <span class="badge badge-default">Login page feature.Login with all credentials</span>
 </div>
@@ -869,9 +1103,9 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:02:34 pm</td>
+<td>11:24:59 am</td>
 <td>
-<a href="#" class="linked" test-id='5' id='7'>Login with all credentials</a>
+<a href="#" class="linked" test-id='3' id='12'>Login with all credentials</a>
 <div class="">
 <span class="badge badge-default">Login page feature.Login with all credentials</span>
 </div>
@@ -879,11 +1113,280 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:02:34 pm</td>
+<td>11:24:59 am</td>
 <td>
-<a href="#" class="linked" test-id='5' id='8'>Login with all credentials</a>
+<a href="#" class="linked" test-id='3' id='13'>Login with all credentials</a>
 <div class="">
 <span class="badge badge-default">Login page feature.Login with all credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@ContactUs</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ContactUs</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:59 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Contact us page title</a>
+<div class="">
+<span class="badge badge-default">Contact Us feature.Contact us page title</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@InputForms</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@InputForms</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:59 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='9'>Input Forms scenario</a>
+<div class="">
+<span class="badge badge-default">MenuList feature on Selenium Easy webapplication.Input Forms scenario</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@smoketest</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoketest</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:59 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='4'>Forgot Password link</a>
+<div class="">
+<span class="badge badge-default">Login page feature.Forgot Password link</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:59 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='15'>Login page title</a>
+<div class="">
+<span class="badge badge-default">Login page feature.Login page title</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@excel</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@excel</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:59 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='14'>Login with all credentials</a>
+<div class="">
+<span class="badge badge-default">Login page feature.Login with all credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@DataTable</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@DataTable</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:59 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='7'>Login with all credentials</a>
+<div class="">
+<span class="badge badge-default">Login page feature.Login with all credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@MenuList</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@MenuList</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:59 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>MenuList feature on Selenium Easy webapplication</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:59 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='9'>Input Forms scenario</a>
+<div class="">
+<span class="badge badge-default">MenuList feature on Selenium Easy webapplication.Input Forms scenario</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@smoketest1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoketest1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:59 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='10'>Login with correct credentials</a>
+<div class="">
+<span class="badge badge-default">Login page feature.Login with correct credentials</span>
 </div>
 </td>
 </tr>
@@ -931,9 +1434,9 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>16:02:44 pm</td>
+<td>11:25:14 am</td>
 <td>
-<a href="#" class="linked" test-id='1' id='20'>Given user is on home page</a>
+<a href="#" class="linked" test-id='5' id='51'>Given user is on home page</a>
 <div class="">
 <span class="badge badge-default">Amazon page feature.Amazon page title.Given user is on home page</span>
 </div>

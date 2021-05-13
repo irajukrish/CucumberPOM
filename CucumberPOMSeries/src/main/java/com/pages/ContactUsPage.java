@@ -15,6 +15,7 @@ public class ContactUsPage {
 	private By messageText = By.id("message");
 	private By sendButton = By.id("submitMessage");
 	private By successMessg = By.cssSelector("div#center_column p");
+	
 
 	public ContactUsPage(WebDriver driver) {
 		this.driver = driver;

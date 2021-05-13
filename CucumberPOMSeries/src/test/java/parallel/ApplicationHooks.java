@@ -31,8 +31,8 @@ public class ApplicationHooks {
 	
 	@Before(order = 1)
 	public void launchBrowser() {
-		//String browserName = prop.getProperty("browser");
-		String browserName=Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
+		String browserName = prop.getProperty("browser");
+		//String browserName=Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
 		driverFactory=new DriverFactory();
 		driver = driverFactory.init_driver(browserName);
 	}
@@ -43,7 +43,7 @@ public class ApplicationHooks {
 	
 	@After(order=0)
 	public void quitBrowser() {
-		driver.quit();
+		//driver.quit();
 	}
 	
 	@After(order=1)

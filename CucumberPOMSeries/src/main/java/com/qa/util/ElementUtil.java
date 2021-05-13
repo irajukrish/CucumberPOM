@@ -28,8 +28,8 @@ public class ElementUtil {
 		return element;
 	}
 	
-	public void waitForElementPresent(By locator) {
-		WebDriverWait wait = new WebDriverWait(driver, 20);
+	public void waitForElementPresent(By locator, int timer) {
+		WebDriverWait wait = new WebDriverWait(driver, timer);
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 	}
 	
@@ -54,6 +54,10 @@ public class ElementUtil {
 			System.out.println("some exception occurred while getting the title " + title);
 		}
 		return title;
+	}
+	
+	public String getText(By locator) {
+		return getElement(locator).getText();
 	}
 
 }

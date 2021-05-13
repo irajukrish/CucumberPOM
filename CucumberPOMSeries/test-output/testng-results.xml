@@ -1,20 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-07T10:32:32Z" name="Suite" finished-at="2021-05-07T10:33:25Z" duration-ms="52076">
+  <suite started-at="2021-05-13T05:54:58Z" name="Default suite" finished-at="2021-05-13T05:56:03Z" duration-ms="65549">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1139b2f3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@635eaaf1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-05-07T10:32:32Z" name="chromeTest" finished-at="2021-05-07T10:33:25Z" duration-ms="52076">
+    <test started-at="2021-05-13T05:54:58Z" name="Default test" finished-at="2021-05-13T05:56:03Z" duration-ms="65549">
       <class name="parallel.ParallelRun">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@1139b2f3]" started-at="2021-05-07T10:32:32Z" name="setUpClass" finished-at="2021-05-07T10:32:33Z" duration-ms="852" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:54:58Z" name="setUpClass" finished-at="2021-05-13T05:54:58Z" duration-ms="769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1139b2f3]" started-at="2021-05-07T10:32:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-07T10:33:13Z" duration-ms="39559" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:54:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T05:55:41Z" duration-ms="42807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:54:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T05:55:47Z" duration-ms="48590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:54:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T05:55:47Z" duration-ms="48817" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +62,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1139b2f3]" started-at="2021-05-07T10:32:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-07T10:33:21Z" duration-ms="47491" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:54:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T05:55:59Z" duration-ms="61079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with all credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:54:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T05:55:45Z" duration-ms="46683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot Password link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:54:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T05:55:47Z" duration-ms="48865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Contact us page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Contact Us feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:54:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T05:55:50Z" duration-ms="51179" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -47,287 +127,302 @@
             <message>
               <![CDATA[Found 5 accessibility violations:
 1) Text of buttons and links should not be repeated in the image alternative: https://dequeuniversity.com/rules/axe/3.1/image-redundant-alt?application=axeAPI
-  a) ["a[aria-label=\"Measuring\\ instruments\"]"]
+  a) ["a[aria-label=\"Clothing\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  b) ["a[aria-label=\"Medical\\ supplies\"]"]
+  b) ["a[href=\"/b?node=1983518031\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  c) ["a[aria-label=\"Flight\\ tickets\"]"]
+  c) ["a[href=\"/b?node=2563504031\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  d) ["a[aria-label=\"Bus\\ tickets\"]"]
+  d) ["a[aria-label=\"BAGS\\ \\&\\ LUGGAGE\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  e) ["a[aria-label=\"Train\\ tickets\"]"]
+  e) ["a[aria-label=\"Cereals\\ \\&\\ Oats\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  f) ["a[aria-label=\"Essential\\ travel\\ products\"]"]
+  f) ["a[aria-label=\"Tea\\ \\&\\ Coffee\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  g) ["a[aria-label=\"Cereals\\ \\&\\ Oats\"]"]
+  g) ["a[aria-label=\"Spreads\\ \\&\\ Honey\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  h) ["a[aria-label=\"Tea\\ \\&\\ Coffee\"]"]
+  h) ["a[aria-label=\"Cleaning\\ essentials\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  i) ["a[aria-label=\"Spreads\\ \\&\\ Honey\"]"]
+  i) ["a[aria-label=\"Immunity\\ \\&\\ healthcare\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  j) ["a[aria-label=\"Clothing\"]"]
+  j) ["a[aria-label=\"Women\\'s\\ personal\\ care\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  k) ["a[href=\"/b?node=1983518031\"]"]
+  k) ["a[aria-label=\"Men\\'s\\ grooming\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  l) ["a[href=\"/b?node=2563504031\"]"]
+  l) ["a[aria-label=\"Women\\'s\\ Clothing\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  m) ["a[aria-label=\"BAGS\\ \\&\\ LUGGAGE\"]"]
+  m) ["a[aria-label=\"Footwear\\+Handbags\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  n) ["a[aria-label=\"Cookware\"]"]
+  n) ["#Z1TOtzOeCSJD44F3e60UlA > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-0.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Watches\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  o) ["a[aria-label=\"Tableware\"]"]
+  o) ["a[aria-label=\"Fashion\\ jewellery\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  p) ["a[aria-label=\"N95\\ Masks\\ \\&\\ respirators\"]"]
+  p) ["a[aria-label=\"Flight\\ tickets\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  q) ["a[aria-label=\"Cloth\\ masks\"]"]
+  q) ["a[aria-label=\"Bus\\ tickets\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  r) ["a[aria-label=\"Kids\\ mask\"]"]
+  r) ["a[aria-label=\"Train\\ tickets\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  s) ["a[aria-label=\"View\\ the\\ mask\\ store\"]"]
+  s) ["a[aria-label=\"Essential\\ travel\\ products\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  t) ["a[aria-label=\"Skin\\ care\"]"]
+  t) ["a[aria-label=\"N95\\ Masks\\ \\&\\ respirators\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  u) ["a[aria-label=\"Hair\\ care\"]"]
+  u) ["a[aria-label=\"Cloth\\ masks\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  v) ["a[aria-label=\"Makeup\"]"]
+  v) ["a[aria-label=\"Kids\\ mask\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  w) ["a[aria-label=\"Luxury\\ beauty\"]"]
+  w) ["a[aria-label=\"View\\ the\\ mask\\ store\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  x) ["a[href=\"/b?node=11599648031\"]"]
+  x) ["a[aria-label=\"Dog\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  y) ["a[aria-label=\"Tablets\"]"]
+  y) ["a[aria-label=\"Cat\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  z) ["a[aria-label=\"Laptops\"]"]
+  z) ["a[aria-label=\"Aquatics\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aa) ["a[aria-label=\"Monitors\"]"]
+  aa) ["a[aria-label=\"Bird\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ab) ["a[aria-label=\"All-new\\ Echo\\ Dot\"]"]
+  ab) ["a[aria-label=\"Chips\\ \\&\\ namkeens\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ac) ["a[aria-label=\"All-new\\ Fire\\ TV\\ Stick\"]"]
+  ac) ["a[aria-label=\"Biscuits\\ \\&\\ cookies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ad) ["a[aria-label=\"Echo\\ Show\\ 5\"]"]
+  ad) ["a[aria-label=\"Frozen\\ snacks\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ae) ["a[aria-label=\"Kindle\\ E-readers\"]"]
+  ae) ["#U7H7lWNcujxahj44f2hHHw > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  af) ["a[aria-label=\"Printers\"]"]
+  af) ["a[aria-label=\"Fresh\\ fruits\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ag) ["a[aria-label=\"Routers\\ \\&\\ hotspots\"]"]
+  ag) ["a[aria-label=\"Dairy\\,\\ bread\\ \\&\\ eggs\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ah) ["a[aria-label=\"Computer\\ accessories\"]"]
+  ah) ["a[aria-label=\"Breakfast\\ cereals\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ai) ["a[aria-label=\"Stationery\\ \\&\\ office\\ supplies\"]"]
+  ai) ["#\\35 zVk8pxfnAlYsGWOPku5jQ > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aj) ["a[aria-label=\"Men\\'s\\ clothing\"]"]
+  aj) ["a[aria-label=\"Skin\\ care\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ak) ["a[aria-label=\"Women\u2019s\\ clothing\"]"]
+  ak) ["a[aria-label=\"Hair\\ care\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  al) ["a[aria-label=\"Kids\\ clothing\"]"]
+  al) ["a[aria-label=\"Makeup\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  am) [".grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
+  am) ["a[aria-label=\"Luxury\\ beauty\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  an) ["a[aria-label=\"Men\u2019s\\ Innerwear\"]"]
+  an) ["a[aria-label=\"Cookware\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ao) ["a[aria-label=\"Women\\'s\\ sarees\"]"]
+  ao) ["a[aria-label=\"Tableware\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ap) ["a[aria-label=\"Men\\'s\\ footwear\"]"]
+  ap) ["a[aria-label=\"Body\\ lotions\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aq) [".quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Watches\"]"]
+  aq) ["a[aria-label=\"Face\\ creams\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ar) ["a[aria-label=\"Gift\\ for\\ men\"]"]
+  ar) ["a[aria-label=\"Health\\ aids\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  as) ["a[aria-label=\"Gift\\ for\\ women\"]"]
+  as) ["#\\36 98NUdRHRvZGMh8EzsLNyg > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  at) ["a[aria-label=\"Gift\\ for\\ boys\"]"]
+  at) ["a[aria-label=\"Men\u2019s\\ Innerwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  au) ["a[aria-label=\"Gift\\ for\\ girls\"]"]
+  au) ["a[aria-label=\"Women\\'s\\ sarees\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  av) ["a[aria-label=\"Gifts\\ by\\ interest\"]"]
+  av) ["a[aria-label=\"Men\\'s\\ footwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aw) ["a[aria-label=\"Most-gifted\"]"]
+  aw) [".quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Watches\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ax) ["a[aria-label=\"Gift\\ Cards\"]"]
+  ax) ["a[aria-label=\"CLOTHING\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ay) ["a[aria-label=\"Decorations\"]"]
+  ay) ["#\\39 J2RKqdU4MwQuQ7w7IFHWA > .a-cardui-body > .a-spacing-small.grid-row-1.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  az) ["a[aria-label=\"CLOTHING\"]"]
+  az) ["a[aria-label=\"Precious\\ jewellery\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ba) ["#ql7SpWUqj3IIrT4H4JXUKA > .a-cardui-body > .a-spacing-small.grid-row-1.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
+  ba) ["a[aria-label=\"Juices\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  bb) ["a[aria-label=\"Precious\\ jewellery\"]"]
+  bb) ["a[aria-label=\"Cold\\ drinks\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  bc) ["a[aria-label=\"Smart\\ bulb\"]"]
+  bc) ["a[aria-label=\"Tea\\ \\&\\ coffee\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  bd) ["a[aria-label=\"Echo\\ devices\"]"]
+  bd) ["#-UJiXWLNCx4Ljq9F2adibg > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  be) ["a[aria-label=\"Smart\\ Plug\"]"]
+  be) ["a[aria-label=\"Men\\'s\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bf) ["a[aria-label=\"Women\u2019s\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bg) ["a[aria-label=\"Kids\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bh) [".grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
@@ -367,287 +462,302 @@
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Found 5 accessibility violations:
 1) Text of buttons and links should not be repeated in the image alternative: https://dequeuniversity.com/rules/axe/3.1/image-redundant-alt?application=axeAPI
-  a) ["a[aria-label=\"Measuring\\ instruments\"]"]
+  a) ["a[aria-label=\"Clothing\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  b) ["a[aria-label=\"Medical\\ supplies\"]"]
+  b) ["a[href=\"/b?node=1983518031\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  c) ["a[aria-label=\"Flight\\ tickets\"]"]
+  c) ["a[href=\"/b?node=2563504031\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  d) ["a[aria-label=\"Bus\\ tickets\"]"]
+  d) ["a[aria-label=\"BAGS\\ \\&\\ LUGGAGE\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  e) ["a[aria-label=\"Train\\ tickets\"]"]
+  e) ["a[aria-label=\"Cereals\\ \\&\\ Oats\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  f) ["a[aria-label=\"Essential\\ travel\\ products\"]"]
+  f) ["a[aria-label=\"Tea\\ \\&\\ Coffee\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  g) ["a[aria-label=\"Cereals\\ \\&\\ Oats\"]"]
+  g) ["a[aria-label=\"Spreads\\ \\&\\ Honey\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  h) ["a[aria-label=\"Tea\\ \\&\\ Coffee\"]"]
+  h) ["a[aria-label=\"Cleaning\\ essentials\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  i) ["a[aria-label=\"Spreads\\ \\&\\ Honey\"]"]
+  i) ["a[aria-label=\"Immunity\\ \\&\\ healthcare\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  j) ["a[aria-label=\"Clothing\"]"]
+  j) ["a[aria-label=\"Women\\'s\\ personal\\ care\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  k) ["a[href=\"/b?node=1983518031\"]"]
+  k) ["a[aria-label=\"Men\\'s\\ grooming\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  l) ["a[href=\"/b?node=2563504031\"]"]
+  l) ["a[aria-label=\"Women\\'s\\ Clothing\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  m) ["a[aria-label=\"BAGS\\ \\&\\ LUGGAGE\"]"]
+  m) ["a[aria-label=\"Footwear\\+Handbags\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  n) ["a[aria-label=\"Cookware\"]"]
+  n) ["#Z1TOtzOeCSJD44F3e60UlA > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-0.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Watches\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  o) ["a[aria-label=\"Tableware\"]"]
+  o) ["a[aria-label=\"Fashion\\ jewellery\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  p) ["a[aria-label=\"N95\\ Masks\\ \\&\\ respirators\"]"]
+  p) ["a[aria-label=\"Flight\\ tickets\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  q) ["a[aria-label=\"Cloth\\ masks\"]"]
+  q) ["a[aria-label=\"Bus\\ tickets\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  r) ["a[aria-label=\"Kids\\ mask\"]"]
+  r) ["a[aria-label=\"Train\\ tickets\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  s) ["a[aria-label=\"View\\ the\\ mask\\ store\"]"]
+  s) ["a[aria-label=\"Essential\\ travel\\ products\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  t) ["a[aria-label=\"Skin\\ care\"]"]
+  t) ["a[aria-label=\"N95\\ Masks\\ \\&\\ respirators\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  u) ["a[aria-label=\"Hair\\ care\"]"]
+  u) ["a[aria-label=\"Cloth\\ masks\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  v) ["a[aria-label=\"Makeup\"]"]
+  v) ["a[aria-label=\"Kids\\ mask\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  w) ["a[aria-label=\"Luxury\\ beauty\"]"]
+  w) ["a[aria-label=\"View\\ the\\ mask\\ store\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  x) ["a[href=\"/b?node=11599648031\"]"]
+  x) ["a[aria-label=\"Dog\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  y) ["a[aria-label=\"Tablets\"]"]
+  y) ["a[aria-label=\"Cat\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  z) ["a[aria-label=\"Laptops\"]"]
+  z) ["a[aria-label=\"Aquatics\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aa) ["a[aria-label=\"Monitors\"]"]
+  aa) ["a[aria-label=\"Bird\\ supplies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ab) ["a[aria-label=\"All-new\\ Echo\\ Dot\"]"]
+  ab) ["a[aria-label=\"Chips\\ \\&\\ namkeens\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ac) ["a[aria-label=\"All-new\\ Fire\\ TV\\ Stick\"]"]
+  ac) ["a[aria-label=\"Biscuits\\ \\&\\ cookies\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ad) ["a[aria-label=\"Echo\\ Show\\ 5\"]"]
+  ad) ["a[aria-label=\"Frozen\\ snacks\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ae) ["a[aria-label=\"Kindle\\ E-readers\"]"]
+  ae) ["#U7H7lWNcujxahj44f2hHHw > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  af) ["a[aria-label=\"Printers\"]"]
+  af) ["a[aria-label=\"Fresh\\ fruits\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ag) ["a[aria-label=\"Routers\\ \\&\\ hotspots\"]"]
+  ag) ["a[aria-label=\"Dairy\\,\\ bread\\ \\&\\ eggs\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ah) ["a[aria-label=\"Computer\\ accessories\"]"]
+  ah) ["a[aria-label=\"Breakfast\\ cereals\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ai) ["a[aria-label=\"Stationery\\ \\&\\ office\\ supplies\"]"]
+  ai) ["#\\35 zVk8pxfnAlYsGWOPku5jQ > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aj) ["a[aria-label=\"Men\\'s\\ clothing\"]"]
+  aj) ["a[aria-label=\"Skin\\ care\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ak) ["a[aria-label=\"Women\u2019s\\ clothing\"]"]
+  ak) ["a[aria-label=\"Hair\\ care\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  al) ["a[aria-label=\"Kids\\ clothing\"]"]
+  al) ["a[aria-label=\"Makeup\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  am) [".grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
+  am) ["a[aria-label=\"Luxury\\ beauty\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  an) ["a[aria-label=\"Men\u2019s\\ Innerwear\"]"]
+  an) ["a[aria-label=\"Cookware\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ao) ["a[aria-label=\"Women\\'s\\ sarees\"]"]
+  ao) ["a[aria-label=\"Tableware\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ap) ["a[aria-label=\"Men\\'s\\ footwear\"]"]
+  ap) ["a[aria-label=\"Body\\ lotions\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aq) [".quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Watches\"]"]
+  aq) ["a[aria-label=\"Face\\ creams\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ar) ["a[aria-label=\"Gift\\ for\\ men\"]"]
+  ar) ["a[aria-label=\"Health\\ aids\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  as) ["a[aria-label=\"Gift\\ for\\ women\"]"]
+  as) ["#\\36 98NUdRHRvZGMh8EzsLNyg > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  at) ["a[aria-label=\"Gift\\ for\\ boys\"]"]
+  at) ["a[aria-label=\"Men\u2019s\\ Innerwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  au) ["a[aria-label=\"Gift\\ for\\ girls\"]"]
+  au) ["a[aria-label=\"Women\\'s\\ sarees\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  av) ["a[aria-label=\"Gifts\\ by\\ interest\"]"]
+  av) ["a[aria-label=\"Men\\'s\\ footwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  aw) ["a[aria-label=\"Most-gifted\"]"]
+  aw) [".quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Watches\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ax) ["a[aria-label=\"Gift\\ Cards\"]"]
+  ax) ["a[aria-label=\"CLOTHING\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ay) ["a[aria-label=\"Decorations\"]"]
+  ay) ["#\\39 J2RKqdU4MwQuQ7w7IFHWA > .a-cardui-body > .a-spacing-small.grid-row-1.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  az) ["a[aria-label=\"CLOTHING\"]"]
+  az) ["a[aria-label=\"Precious\\ jewellery\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  ba) ["#ql7SpWUqj3IIrT4H4JXUKA > .a-cardui-body > .a-spacing-small.grid-row-1.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
+  ba) ["a[aria-label=\"Juices\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  bb) ["a[aria-label=\"Precious\\ jewellery\"]"]
+  bb) ["a[aria-label=\"Cold\\ drinks\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  bc) ["a[aria-label=\"Smart\\ bulb\"]"]
+  bc) ["a[aria-label=\"Tea\\ \\&\\ coffee\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  bd) ["a[aria-label=\"Echo\\ devices\"]"]
+  bd) ["#-UJiXWLNCx4Ljq9F2adibg > .a-cardui-body > .grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block.image-window"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
 
-  be) ["a[aria-label=\"Smart\\ Plug\"]"]
+  be) ["a[aria-label=\"Men\\'s\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bf) ["a[aria-label=\"Women\u2019s\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bg) ["a[aria-label=\"Kids\\ clothing\"]"]
+    Fix all of the following:
+      Element contains <img> element with alt text that duplicates existing text
+
+
+  bh) [".grid-row-2.a-section > .quadrant-container-1.quadrant-container.a-spacing-none > .image-redirect.aok-block[aria-label=\"Footwear\"]"]
     Fix all of the following:
       Element contains <img> element with alt text that duplicates existing text
 
@@ -694,7 +804,7 @@ at ✽.user is on home page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1139b2f3]" started-at="2021-05-07T10:32:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-07T10:33:13Z" duration-ms="39559" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:54:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T05:55:47Z" duration-ms="48973" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -710,27 +820,43 @@ at ✽.user is on home page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1139b2f3]" started-at="2021-05-07T10:32:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-07T10:33:13Z" duration-ms="39559" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:54:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T05:55:56Z" duration-ms="57709" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Contact us page title"]]>
+                <![CDATA["Login with all credentials"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Contact Us feature]"]]>
+                <![CDATA["Optional[Login page feature]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@1139b2f3]" started-at="2021-05-07T10:33:21Z" name="tearDownClass" finished-at="2021-05-07T10:33:25Z" duration-ms="3708" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:54:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T05:55:41Z" duration-ms="42760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Input Forms scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[MenuList feature on Selenium Easy webapplication]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@635eaaf1]" started-at="2021-05-13T05:55:59Z" name="tearDownClass" finished-at="2021-05-13T05:56:03Z" duration-ms="3678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- parallel.ParallelRun -->
-    </test> <!-- chromeTest -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

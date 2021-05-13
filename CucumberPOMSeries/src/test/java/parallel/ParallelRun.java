@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/"},
 		monochrome = true
-		//,tags = "@ContactUs"
+		,tags = "@InputForms"
 		
 		)
 
