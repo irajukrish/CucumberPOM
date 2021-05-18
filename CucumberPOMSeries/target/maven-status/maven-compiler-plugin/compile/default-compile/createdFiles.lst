@@ -1,0 +1,13 @@
+com\qa\util\ExcelReader.class
+com\qa\factory\DriverFactory.class
+com\qa\util\ElementUtil.class
+com\pages\DragAndDropPage.class
+com\pages\MenuListPage.class
+com\qa\util\XLUtility.class
+com\qa\util\Constants.class
+com\qa\util\ConfigReader.class
+com\pages\ContactUsPage.class
+com\pages\BasePage.class
+com\pages\LoginPage.class
+com\pages\AmazonPage.class
+com\pages\AccountsPage.class

@@ -11,9 +11,11 @@ import io.cucumber.testng.CucumberOptions;
 		
 		plugin = {"pretty",				
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-				"timeline:test-output-thread/"},
+				"timeline:test-output-thread/",
+				"json:target/cucumber.json",
+				"html:target/cucumber-reports"},
 		monochrome = true
-		,tags = "@InputForms"
+		//,tags = "@ContactUs"
 		
 		)
 

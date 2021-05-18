@@ -9,305 +9,314 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">33,957</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">5</td><td class="num">118,548</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">parallel.ParallelRun</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1619697848387</td><td rowspan="1">20760</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">parallel.ParallelRun</td><td><a href="#m1">runScenario</a></td><td rowspan="3">1619697848387</td><td rowspan="3">21843</td></tr><tr class="passedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">parallel.ParallelRun</td><td><a href="#m0">runScenario</a></td><td rowspan="5">1621344172576</td><td rowspan="5">62954</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m3">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m4">runScenario</a></td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">parallel.ParallelRun</td><td><a href="#m5">runScenario</a></td><td rowspan="6">1621344172576</td><td rowspan="6">63233</td></tr><tr class="passedeven"><td><a href="#m6">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m7">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m8">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m9">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m10">runScenario</a></td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Amazon page title&quot;</td><td>&quot;Optional[Amazon page feature]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Found 6 accessibility violations:
-1) ARIA role must be appropriate for the element: https://dequeuniversity.com/rules/axe/3.1/aria-allowed-role?application=axeAPI
-  a) [&quot;img[width=\&quot;\\31 00\&quot;]&quot;]
-    Fix any of the following:
-      role presentation  is not allowed for given element
-
-
-2) Text of buttons and links should not be repeated in the image alternative: https://dequeuniversity.com/rules/axe/3.1/image-redundant-alt?application=axeAPI
-  a) [&quot;a[aria-label=\&quot;ACs\&quot;]&quot;]
+<h2>Surefire test</h2><h3 id="m0">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Amazon page title&quot;</td><td>&quot;Optional[Amazon page feature]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Found 5 accessibility violations:
+1) Text of buttons and links should not be repeated in the image alternative: https://dequeuniversity.com/rules/axe/3.1/image-redundant-alt?application=axeAPI
+  a) [&quot;a[aria-label=\&quot;Cleaning\\ essentials\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  b) [&quot;a[aria-label=\&quot;Refrigerators\&quot;]&quot;]
+  b) [&quot;a[aria-label=\&quot;Immunity\\ \\&amp;\\ healthcare\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  c) [&quot;a[aria-label=\&quot;Televisions\&quot;]&quot;]
+  c) [&quot;a[aria-label=\&quot;Women\\&apos;s\\ personal\\ care\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  d) [&quot;a[aria-label=\&quot;Washing\\ machines\&quot;]&quot;]
+  d) [&quot;a[aria-label=\&quot;Men\\&apos;s\\ grooming\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  e) [&quot;a[aria-label=\&quot;Cleaning\\ essentials\&quot;]&quot;]
+  e) [&quot;a[aria-label=\&quot;ACs\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  f) [&quot;a[aria-label=\&quot;Immunity\\ \\&amp;\\ healthcare\&quot;]&quot;]
+  f) [&quot;a[aria-label=\&quot;Refrigerators\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  g) [&quot;a[aria-label=\&quot;Women\\&apos;s\\ personal\\ care\&quot;]&quot;]
+  g) [&quot;a[aria-label=\&quot;Televisions\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  h) [&quot;a[aria-label=\&quot;Men\\&apos;s\\ grooming\&quot;]&quot;]
+  h) [&quot;a[aria-label=\&quot;Washing\\ machines\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  i) [&quot;a[aria-label=\&quot;Home\\ products\&quot;]&quot;]
+  i) [&quot;a[aria-label=\&quot;Cereals\\ \\&amp;\\ Oats\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  j) [&quot;a[aria-label=\&quot;Kitchen\\ \\&amp;\\ dining\&quot;]&quot;]
+  j) [&quot;a[aria-label=\&quot;Tea\\ \\&amp;\\ Coffee\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  k) [&quot;a[aria-label=\&quot;Daily\\ essentials\&quot;]&quot;]
+  k) [&quot;a[aria-label=\&quot;Spreads\\ \\&amp;\\ Honey\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  l) [&quot;a[aria-label=\&quot;Clothing\\ essentials\&quot;]&quot;]
+  l) [&quot;a[aria-label=\&quot;Home\\ products\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  m) [&quot;a[aria-label=\&quot;Measuring\\ instruments\&quot;]&quot;]
+  m) [&quot;a[aria-label=\&quot;Kitchen\\ \\&amp;\\ dining\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  n) [&quot;a[aria-label=\&quot;Medical\\ supplies\&quot;]&quot;]
+  n) [&quot;a[aria-label=\&quot;Daily\\ essentials\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  o) [&quot;a[aria-label=\&quot;Women\\&apos;s\\ Clothing\&quot;]&quot;]
+  o) [&quot;a[aria-label=\&quot;Clothing\\ essentials\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  p) [&quot;a[aria-label=\&quot;Footwear\\+Handbags\&quot;]&quot;]
+  p) [&quot;a[aria-label=\&quot;Women\\&apos;s\\ Clothing\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  q) [&quot;#\\35 _oykn5nJjdVWXRCersM7g &gt; .a-cardui-body &gt; .grid-row-2.a-section &gt; .quadrant-container-0.quadrant-container.a-spacing-none &gt; .image-redirect.aok-block[aria-label=\&quot;Watches\&quot;]&quot;]
+  q) [&quot;a[aria-label=\&quot;Footwear\\+Handbags\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  r) [&quot;a[aria-label=\&quot;Fashion\\ jewellery\&quot;]&quot;]
+  r) [&quot;a[aria-label=\&quot;Watches\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  s) [&quot;a[aria-label=\&quot;Clothing\&quot;]&quot;]
+  s) [&quot;a[aria-label=\&quot;Fashion\\ jewellery\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  t) [&quot;a[href=\&quot;/b?node=1983518031\&quot;]&quot;]
+  t) [&quot;a[aria-label=\&quot;Window\\ ACs\\ \\|\\ Starting\\ \u20b917\\,999\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  u) [&quot;a[href=\&quot;/b?node=2563504031\&quot;]&quot;]
+  u) [&quot;a[aria-label=\&quot;Split\\ ACs\\ \\|\\ Starting\\ \u20b923\\,499\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  v) [&quot;a[aria-label=\&quot;BAGS\\ \\&amp;\\ LUGGAGE\&quot;]&quot;]
+  v) [&quot;a[href=\&quot;/b?node=22902922031\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  w) [&quot;a[aria-label=\&quot;N95\\ Masks\\ \\&amp;\\ respirators\&quot;]&quot;]
+  w) [&quot;a[href=\&quot;/l/22902923031\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  x) [&quot;a[aria-label=\&quot;Cloth\\ masks\&quot;]&quot;]
+  x) [&quot;a[href=\&quot;/b?node=11599648031\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  y) [&quot;a[aria-label=\&quot;Face\\ coverings\&quot;]&quot;]
+  y) [&quot;a[aria-label=\&quot;Tablets\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  z) [&quot;a[aria-label=\&quot;View\\ the\\ mask\\ store\&quot;]&quot;]
+  z) [&quot;a[aria-label=\&quot;Laptops\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  aa) [&quot;a[aria-label=\&quot;Fruits\\ \\&amp;\\ vegetables\&quot;]&quot;]
+  aa) [&quot;a[aria-label=\&quot;Monitors\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ab) [&quot;#OOoTkZY2iD9RKPGqlHOi3Q &gt; .a-cardui-body &gt; .a-spacing-small.grid-row-1.a-section &gt; .quadrant-container-1.quadrant-container.a-spacing-none &gt; .image-redirect.aok-block.image-window&quot;]
+  ab) [&quot;a[aria-label=\&quot;N95\\ Masks\\ \\&amp;\\ respirators\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ac) [&quot;#OOoTkZY2iD9RKPGqlHOi3Q &gt; .a-cardui-body &gt; .grid-row-2.a-section &gt; .quadrant-container-0.quadrant-container.a-spacing-none &gt; .image-redirect.aok-block.image-window&quot;]
+  ac) [&quot;a[aria-label=\&quot;Cloth\\ masks\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ad) [&quot;#OOoTkZY2iD9RKPGqlHOi3Q &gt; .a-cardui-body &gt; .grid-row-2.a-section &gt; .quadrant-container-1.quadrant-container.a-spacing-none &gt; .image-redirect.aok-block.image-window&quot;]
+  ad) [&quot;a[aria-label=\&quot;Kids\\ mask\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ae) [&quot;a[aria-label=\&quot;Juices\&quot;]&quot;]
+  ae) [&quot;a[aria-label=\&quot;View\\ the\\ mask\\ store\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  af) [&quot;a[aria-label=\&quot;Cold\\ drinks\&quot;]&quot;]
+  af) [&quot;a[aria-label=\&quot;Cookware\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ag) [&quot;a[aria-label=\&quot;Tea\\ \\&amp;\\ coffee\&quot;]&quot;]
+  ag) [&quot;a[aria-label=\&quot;Tableware\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ah) [&quot;#duSoDAeXGfqmUYN4aDDq3g &gt; .a-cardui-body &gt; .grid-row-2.a-section &gt; .quadrant-container-1.quadrant-container.a-spacing-none &gt; .image-redirect.aok-block.image-window&quot;]
+  ah) [&quot;a[aria-label=\&quot;Men\\&apos;s\\ clothing\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ai) [&quot;a[aria-label=\&quot;Headphones\&quot;]&quot;]
+  ai) [&quot;a[aria-label=\&quot;Women\u2019s\\ clothing\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  aj) [&quot;a[aria-label=\&quot;Laptops\&quot;]&quot;]
+  aj) [&quot;a[aria-label=\&quot;Kids\\ clothing\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ak) [&quot;a[aria-label=\&quot;Monitors\&quot;]&quot;]
+  ak) [&quot;.grid-row-2.a-section &gt; .quadrant-container-1.quadrant-container.a-spacing-none &gt; .image-redirect.aok-block[aria-label=\&quot;Footwear\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  al) [&quot;a[aria-label=\&quot;Routers\&quot;]&quot;]
+  al) [&quot;a[aria-label=\&quot;Smart\\ bulb\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  am) [&quot;a[href=\&quot;/l/22649649031\&quot;]&quot;]
+  am) [&quot;a[aria-label=\&quot;Echo\\ devices\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  an) [&quot;a[aria-label=\&quot;Top\\ chart\\ games\&quot;]&quot;]
+  an) [&quot;a[aria-label=\&quot;Smart\\ Plug\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ao) [&quot;a[aria-label=\&quot;Play\\ like\\ a\\ pro\\ \\|\\ Accessories\&quot;]&quot;]
+  ao) [&quot;a[href=\&quot;/b?node=1374407031\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ap) [&quot;a[aria-label=\&quot;Virtual\\ reality\&quot;]&quot;]
+  ap) [&quot;a[href=\&quot;/b?node=1374305031\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  aq) [&quot;a[aria-label=\&quot;Nano-ionic\\ facial\\ steamers\&quot;]&quot;]
+  aq) [&quot;a[aria-label=\&quot;Makeup\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ar) [&quot;a[aria-label=\&quot;Digital\\ weighing\\ scales\&quot;]&quot;]
+  ar) [&quot;a[aria-label=\&quot;Luxury\\ beauty\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  as) [&quot;a[aria-label=\&quot;Mini\\ \\&amp;\\ handheld\\ massagers\&quot;]&quot;]
+  as) [&quot;a[aria-label=\&quot;Bath\\ \\&amp;\\ shower\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  at) [&quot;a[aria-label=\&quot;Electric\\ toothbrushes\&quot;]&quot;]
+  at) [&quot;#b6zt-SmUeexo54CpQS5OhQ &gt; .a-cardui-body &gt; .a-spacing-small.grid-row-1.a-section &gt; .quadrant-container-1.quadrant-container.a-spacing-none &gt; .image-redirect.aok-block[aria-label=\&quot;Hair\\ care\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  au) [&quot;a[aria-label=\&quot;Men\\&apos;s\\ clothing\&quot;]&quot;]
+  au) [&quot;.grid-row-2.a-section &gt; .quadrant-container-0.quadrant-container.a-spacing-none &gt; .image-redirect.aok-block[aria-label=\&quot;Skin\\ care\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  av) [&quot;a[aria-label=\&quot;Women\u2019s\\ clothing\&quot;]&quot;]
+  av) [&quot;#b6zt-SmUeexo54CpQS5OhQ &gt; .a-cardui-body &gt; .grid-row-2.a-section &gt; .quadrant-container-1.quadrant-container.a-spacing-none &gt; .image-redirect.aok-block.image-window&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  aw) [&quot;a[aria-label=\&quot;Kids\\ clothing\&quot;]&quot;]
+  aw) [&quot;a[aria-label=\&quot;CLOTHING\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ax) [&quot;.grid-row-2.a-section &gt; .quadrant-container-1.quadrant-container.a-spacing-none &gt; .image-redirect.aok-block[aria-label=\&quot;Footwear\&quot;]&quot;]
+  ax) [&quot;.a-spacing-small.grid-row-1.a-section &gt; .quadrant-container-1.quadrant-container.a-spacing-none &gt; .image-redirect.aok-block[aria-label=\&quot;Footwear\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ay) [&quot;a[aria-label=\&quot;All-new\\ Echo\\ Dot\&quot;]&quot;]
+  ay) [&quot;a[aria-label=\&quot;Precious\\ jewellery\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  az) [&quot;a[aria-label=\&quot;All-new\\ Fire\\ TV\\ Stick\&quot;]&quot;]
+  az) [&quot;a[aria-label=\&quot;Washing\\ machines\\ \\&amp;\\ more\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  ba) [&quot;a[aria-label=\&quot;Echo\\ Show\\ 5\&quot;]&quot;]
+  ba) [&quot;a[aria-label=\&quot;Kitchen\\ appliances\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  bb) [&quot;a[aria-label=\&quot;Kindle\\ E-readers\&quot;]&quot;]
+  bb) [&quot;a[aria-label=\&quot;WFH\\ furniture\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  bc) [&quot;a[aria-label=\&quot;Cookware\&quot;]&quot;]
+  bc) [&quot;a[aria-label=\&quot;Bestselling\\ furniture\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-  bd) [&quot;a[aria-label=\&quot;Tableware\&quot;]&quot;]
+  bd) [&quot;a[aria-label=\&quot;Printers\&quot;]&quot;]
     Fix all of the following:
       Element contains &lt;img&gt; element with alt text that duplicates existing text
 
 
-3) Form elements should have a visible label: https://dequeuniversity.com/rules/axe/3.1/label-title-only?application=axeAPI
+  be) [&quot;a[aria-label=\&quot;Routers\\ \\&amp;\\ hotspots\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  bf) [&quot;a[aria-label=\&quot;Computer\\ accessories\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  bg) [&quot;a[aria-label=\&quot;Stationery\\ \\&amp;\\ office\\ supplies\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+2) Form elements should have a visible label: https://dequeuniversity.com/rules/axe/3.1/label-title-only?application=axeAPI
   a) [&quot;#searchDropdownBox&quot;]
     Fix all of the following:
       Only title used to generate label for form element
 
 
-4) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+3) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
   a) [&quot;a[href$=\&quot;ref=footer_logo\&quot;]&quot;]
     Fix all of the following:
       Element is in tab order and does not have accessible text
@@ -320,13 +329,13 @@
       Element&apos;s default semantics were not overridden with role=&quot;none&quot;
 
 
-5) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
+4) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
   a) [&quot;html&quot;]
     Fix all of the following:
       Page must have a level-one heading
 
 
-6) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+5) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
   a) [&quot;html&quot;]
     Fix any of the following:
       Some page content is not contained by landmarks
@@ -335,8 +344,84 @@
 	at parallel.AmazonPageSteps.user_is_on_home_page(AmazonPageSteps.java:35)
 	at ✽.user is on home page(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/AmazonPage.feature:4)
 ... Removed 3 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Forgot Password link&quot;</td><td>&quot;Optional[Login page feature]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with correct credentials&quot;</td><td>&quot;Optional[Login page feature]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login page title&quot;</td><td>&quot;Optional[Login page feature]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login page title&quot;</td><td>&quot;Optional[Login page feature]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at parallel.LoginPageSteps.page_title_should_be(LoginPageSteps.java:78)
+	at ✽.page title should be &quot;Login - My Store&quot;(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:7)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with all credentials&quot;</td><td>&quot;Optional[Login page feature]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email&quot;}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-29FAU25&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\RAJUKR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d016d4b2e7d283f67376c52fd7f2f2c5
+*** Element info: {Using=id, value=email}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.LoginPage.enterUserName(LoginPage.java:33)
+	at parallel.LoginPageSteps.user_enter_username_as_and_password_as(LoginPageSteps.java:52)
+	at ✽.User enter Username as &quot;xikafo9060@goqoez.com&quot; and Password as &quot;Selenium&quot;(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:33)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with correct credentials&quot;</td><td>&quot;Optional[Login page feature]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email&quot;}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-29FAU25&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\RAJUKR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9001fe62c1a503df994aa42b12476ec
+*** Element info: {Using=id, value=email}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.LoginPage.enterUserName(LoginPage.java:33)
+	at parallel.LoginPageSteps.user_enters_username(LoginPageSteps.java:88)
+	at ✽.user enters username &quot;nirifi5570@684hh.com&quot;(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:17)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with all credentials&quot;</td><td>&quot;Optional[Login page feature]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email&quot;}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-29FAU25&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\RAJUKR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8bf216f8ffd86e65e47a049d0960260
+*** Element info: {Using=id, value=email}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.LoginPage.doLogin(LoginPage.java:54)
+	at parallel.LoginPageSteps.users_logs_in(LoginPageSteps.java:45)
+	at ✽.&lt;2&gt; users logs in(file:///C:/Users/Raju%20Krish/git/CucumberPOMSeries/CucumberPOMSeries/src/test/resources/parallel/LoginPage.feature:26)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Forgot Password link&quot;</td><td>&quot;Optional[Login page feature]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Radiobutton form scenario&quot;</td><td>&quot;Optional[MenuList feature on Selenium Easy webapplication]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Contact us page title&quot;</td><td>&quot;Optional[Contact Us feature]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with all credentials&quot;</td><td>&quot;Optional[Login page feature]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with all credentials&quot;</td><td>&quot;Optional[Login page feature]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">parallel.ParallelRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Drag and Drop scenario&quot;</td><td>&quot;Optional[Drag and Drop feature on Guru99]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

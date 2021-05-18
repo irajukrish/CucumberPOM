@@ -48,5 +48,33 @@ public class MenuListSteps {
 		Assert.assertEquals(text,GetInputText);
 		
 	}
+	
+	@Given("user navigates to checkbox form")
+	public void user_navigates_to_checkbox_form() {
+		menuListPage.Navigatetocheckbox();
+	}
+
+	@When("user select the checkbox")
+	public void user_select_the_checkbox() {
+		menuListPage.Selectcheckbox();		
+	}
+
+	@Then("validate the display Message")
+	public void validate_the_display_message() {
+		String actualmsg=menuListPage.GetcheckboxMessage();
+		//Assert.assertEquals(actualmsg, "Success - Check box is checked");
+		System.out.println("validate the display Message");
+	}
+	
+	
+	@Given("user navigates to Radiobutton")
+	public void user_navigates_to_radiobutton() {
+		menuListPage.Navigattoradio();
+	}
+
+	@When("user select the Radiobutton")
+	public void user_select_the_radiobutton() {
+		menuListPage.Selectradio();
+	}
 
 }

@@ -1,0 +1,10 @@
+parallel\ContactUsSteps.class
+testrunners\MyTestRunner.class
+parallel\SeleniumEasy\MenuListSteps.class
+parallel\IEDemo.class
+parallel\SeleniumEasy\DragAndDropSteps.class
+parallel\AmazonPageSteps.class
+AllyTests\AmazonAllyTest.class
+parallel\LoginPageSteps.class
+parallel\ParallelRun.class
+parallel\ApplicationHooks.class
